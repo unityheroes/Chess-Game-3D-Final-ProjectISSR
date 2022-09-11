@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 4f4fa9e99177c03498ba6b53f9b5b442
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Time Warriors
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 478ce7db5970a4640996d68f2feed6e7, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

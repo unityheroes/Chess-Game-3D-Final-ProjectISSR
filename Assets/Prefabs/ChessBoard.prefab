@@ -1,0 +1,124 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &661020453376329392
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 173311848453757962}
+  - component: {fileID: 3875454821263528879}
+  - component: {fileID: 1309587521653188453}
+  - component: {fileID: 427001148596992543}
+  m_Layer: 0
+  m_Name: ChessBoard
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &173311848453757962
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 661020453376329392}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &3875454821263528879
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 661020453376329392}
+  m_Mesh: {fileID: -6473239400097505017, guid: 523bf272ff8cb4341929072e5cc0a3ac, type: 3}
+--- !u!23 &1309587521653188453
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 661020453376329392}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 3b2e02f2b5d375c4787956822efd0bab, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &427001148596992543
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 661020453376329392}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2e8f9c05e45a804cad8ccf914a0dca2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileMaterial: {fileID: 2100000, guid: adcfd21336dca21439fa82aeb22e8947, type: 2}
+  tileSize: 0.7
+  yOffset: 0.15
+  boardCenter: {x: 0, y: 0, z: 0}
+  DeathSpacing: 0.4
+  deathSize: 0.75
+  dragOffset: 0.8
+  vectoryScreen: {fileID: 0}
+  prefabs:
+  - {fileID: 4941813119139963900, guid: 3e76b210852d5e349aaa47ef934334e4, type: 3}
+  - {fileID: 3807105030219788381, guid: c8f4ca7d4f9f2ae47a8dffeda912aeef, type: 3}
+  - {fileID: 5218331308988709500, guid: 501d225074b4ba649a9f64003cbc2d0f, type: 3}
+  - {fileID: 1392366948972502154, guid: 7f6147b6d38ffe843b3cd6284f4b7c67, type: 3}
+  - {fileID: 9105615638742489371, guid: e9c0270c0c597f546af080be42610fb0, type: 3}
+  - {fileID: 9149710919663540105, guid: 698616d657f9a194d88119ddf4b71749, type: 3}
+  teamMaterials:
+  - {fileID: 2100000, guid: 6c08b77bf5f446147981c6a2310f1af4, type: 2}
+  - {fileID: 2100000, guid: c2fbf75683ca2124282d65023b36c959, type: 2}
+  - {fileID: 2100000, guid: ad2ff7195a6a31d44aa089ab9b53324b, type: 2}
+  - {fileID: 2100000, guid: d3ccecf8b518b8f45818600359a8f9de, type: 2}
+  - {fileID: 2100000, guid: a1cc38fcd38907a4caf26b2af97f2304, type: 2}
+  - {fileID: 2100000, guid: c49077a8d31b315438933e57fb3347a7, type: 2}
+  - {fileID: 2100000, guid: 421ec383e419f32498c12de0e2802049, type: 2}
+  - {fileID: 2100000, guid: 8869e63916b5bf34891a8320fa9cabd9, type: 2}
+  - {fileID: 2100000, guid: 0659806ce7670ee48a953fded181a8cf, type: 2}
+  - {fileID: 2100000, guid: a3f26ee8d7a9c4f4c82760682e84c4d6, type: 2}
+  - {fileID: 2100000, guid: 98becafa0dc3cd44c8d07ed4b337bea1, type: 2}
+  - {fileID: 2100000, guid: 803e41b1d4325a74894141fa220e44e4, type: 2}
